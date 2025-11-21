@@ -1,0 +1,6 @@
+[submodule "devlabs-java"]
+	path = devlabs-java
+	url = https://github.com/gogolivan/devlabs-java
+[submodule "devlabs-k8s"]
+	path = devlabs-k8s
+	url = https://github.com/gogolivan/devlabs-k8s
