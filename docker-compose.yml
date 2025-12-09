@@ -2,7 +2,7 @@ services:
   devlabs-k8s:
     build:
       context: .
-      dockerfile: devlabs-k8s/Dockerfile
+      dockerfile: devlabs-k8s/.devcontainer/Dockerfile
     volumes:
       # Mount the root folder that contains .git
       - .:/workspace
