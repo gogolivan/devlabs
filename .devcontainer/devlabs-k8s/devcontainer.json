@@ -15,6 +15,31 @@
     }
   },
 
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "hashicorp.terraform",
+        "redhat.vscode-yaml",
+        "streetsidesoftware.code-spell-checker",
+        "ms-azuretools.vscode-docker",
+        "asciidoctor.asciidoctor-vscode"
+      ]
+    },
+    "settings": {
+      "editor.tabSize": 2,
+
+      "[terraform]": {
+        "editor.defaultFormatter": "hashicorp.terraform",
+        "editor.formatOnSave": true,
+        "editor.tabSize": 2
+      }
+    }
+  },
+
+  "postCreateCommand": "/workspace/devlabs-k8s/.devcontainer/post-create",
+
+  "postStartCommand": "/workspace/devlabs-k8s/.devcontainer/post-start",
+
   "shutdownAction": "none",
   "workspaceFolder": "/workspace/devlabs-k8s"
 }

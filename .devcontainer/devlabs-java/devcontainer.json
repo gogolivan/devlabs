@@ -7,6 +7,17 @@
     "ghcr.io/devcontainers/features/java:1": {}
   },
 
+  // Configure tool-specific properties.
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "streetsidesoftware.code-spell-checker",
+        "ms-azuretools.vscode-docker",
+        "asciidoctor.asciidoctor-vscode"
+      ]
+    }
+  },
+
   "shutdownAction": "none",
   "workspaceFolder": "/workspace/devlabs-java"
 }
