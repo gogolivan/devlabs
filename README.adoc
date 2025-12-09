@@ -1,7 +1,6 @@
 = Dev Labs
 :doctype: book
 
-
-
 == References
 - https://git-scm.com/book/en/v2/Git-Tools-Submodules[Git Submodules]
+- https://code.visualstudio.com/remote/advancedcontainers/connect-multiple-containers[DevContainers - Connect Multiple Containers]
