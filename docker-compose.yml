@@ -1,0 +1,15 @@
+services:
+  devlabs-k8s:
+    image: mcr.microsoft.com/devcontainers/base:noble
+    volumes:
+      # Mount the root folder that contains .git
+      - .:/workspace
+    command: sleep infinity
+    # ...
+
+  devlabs-java:
+    image: mcr.microsoft.com/devcontainers/base:noble
+    volumes:
+      # Mount the root folder that contains .git
+      - .:/workspace
+    command: sleep infinity

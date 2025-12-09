@@ -1,0 +1,7 @@
+{
+  "name": "Dev Labs k8s Container",
+  "dockerComposeFile": ["../../docker-compose.yml"],
+  "service": "devlabs-k8s",
+  "shutdownAction": "none",
+  "workspaceFolder": "/workspace/devlabs-k8s"
+}

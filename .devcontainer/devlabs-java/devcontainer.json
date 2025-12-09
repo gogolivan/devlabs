@@ -1,0 +1,7 @@
+{
+  "name": "Dev Labs Java Container",
+  "dockerComposeFile": ["../../docker-compose.yml"],
+  "service": "devlabs-java",
+  "shutdownAction": "none",
+  "workspaceFolder": "/workspace/devlabs-java"
+}
