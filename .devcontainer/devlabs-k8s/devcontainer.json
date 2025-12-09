@@ -2,6 +2,19 @@
   "name": "Dev Labs k8s Container",
   "dockerComposeFile": ["../../docker-compose.yml"],
   "service": "devlabs-k8s",
+
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {
+      "enableNonRootDocker": "true",
+      "moby": "true"
+    },
+    "ghcr.io/devcontainers/features/kubectl-helm-minikube:1": {
+      "version": "latest",
+      "helm": "latest",
+      "minikube": "latest"
+    }
+  },
+
   "shutdownAction": "none",
   "workspaceFolder": "/workspace/devlabs-k8s"
 }

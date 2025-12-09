@@ -2,6 +2,11 @@
   "name": "Dev Labs Java Container",
   "dockerComposeFile": ["../../docker-compose.yml"],
   "service": "devlabs-java",
+
+  "features": {
+    "ghcr.io/devcontainers/features/java:1": {}
+  },
+
   "shutdownAction": "none",
   "workspaceFolder": "/workspace/devlabs-java"
 }
